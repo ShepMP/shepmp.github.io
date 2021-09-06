@@ -4,11 +4,11 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 .materialize-red {
-  background-color: #e51c23 !important;
+  background-color: #910112 !important;
 }
 
 .materialize-red-text {
-  color: #e51c23 !important;
+  color: #910112 important;
 }
 
 .materialize-red.lighten-5 {
@@ -4377,7 +4377,8 @@ nav .brand-logo i.material-icons {
 nav .nav-title {
   display: inline-block;
   font-size: 32px;
-  padding: 28px 0;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
 
 nav ul {
@@ -7529,6 +7530,10 @@ input[type=range]::-ms-thumb {
   border-left: 2px solid #ee6e73;
 }
 
+.table {
+  padding-left: 14px;
+}
+
 .sidenav {
   position: fixed;
   width: 300px;
@@ -7683,6 +7688,11 @@ input[type=range]::-ms-thumb {
 .sidenav .user-view .email {
   padding-bottom: 16px;
   font-weight: 400;
+}
+
+.sidenav .user-view .title {
+  font-size: 320;
+  margin-bottom: 100px;
 }
 
 .drag-target {
@@ -8486,10 +8496,19 @@ input[type=range]::-ms-thumb {
   visibility: visible;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
           animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-  -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
 }
 
 .tap-target {
@@ -8542,10 +8561,19 @@ input[type=range]::-ms-thumb {
 
 .tap-target-wave::after {
   visibility: hidden;
-  -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s;
-  transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s,
+ -webkit-transform .3s;
   z-index: -1;
 }
 
