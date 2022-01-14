@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-  <title>ShepMP</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Mods - ShepMP</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">ShepMP</a>
       <ul class="right hide-on-med-and-down">
-        <li class="active"> <a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="mods.html">Mods</a></li>
         <li><a href="texture-pack.html">Texture Pack</a></li>
-        <li><a href="economy.html">Economy</a></li>
+        <li class="active"><a href="economy.html">Economy</a></li>
       </ul>
 
       <ul id="slide-out" class="sidenav">
@@ -41,32 +39,29 @@
         <li><a href="texture-pack.html"><i class="material-icons">texture</i>Texture Pack</a></li>
       </ul>
       <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-
     </div>
   </nav>
 
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1 class="header center blue-text">ShepMP Minecraft Server</h1>
-      <div class="row center">
-        <h5 class="header col s12 light">A private Minecraft SMP with added mods</h5>
-      </div>
-      <div class="row center">
-        <a href="mods.html" id="mod-info-button" class="btn-large waves-effect waves-light blue">Mod Information</a>
-      </div>
-      <br><br>
-
-    </div>
-  </div>
+  <h1>Creating a shop</h1>
+  <p>Place a chest on the ground
+    Place a sign 1 block away from the chest (for example, infront of it)
+    On the sign, write:
+    
+    The first line will be automatically filled with your name by the plugin (if you have the permission ChestShop.admin then you can create shops with the names of other players)
+    Second line is the amount of items to buy or sell
+    Third line is a combination of buy and sell prices. You need to have a price indicator (like 'B' - price that will apply to items BOUGHT by PLAYERS - or 'S' - the SELL price) near the price - the prices are separated by a colon :
+    Some of the possible price combinations: "B 5:5 S", "B 5", "S free"
+    The forth line will hold the id/name of the item. Write ? on the sign and the item will be autofilled with the one from the chest or you can click on the sign with the item afterwards.
+    Optionally you can put the actual name of the item on the forth line. You can find out the name of the item that you're holding by running /iteminfo
+    </p>
 
 
   <div class="container">
     <div class="section">
-
-
-      <!--   Icon Section   -->
-      <!--
+      
+      
+        <!--   Icon Section   -->
+        <!--
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
@@ -132,7 +127,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-        Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>
@@ -143,6 +138,5 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
-</body>
-
+  </body>
 </html>
